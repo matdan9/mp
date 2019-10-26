@@ -1,0 +1,22 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(437,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(438,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  InputListenner.cpp
+  App.cpp
+  GameObject.cpp
+  Renderer.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition (compiling source file src\core\Renderer.cpp)
+C:\Users\mathieu-daniel\Documents\projects\Mapel\Mapel\MapelEngine\dependencies\openGl\include\GLFW\glfw3.h(104): message : see previous definition of 'APIENTRY' (compiling source file src\core\Renderer.cpp)
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition (compiling source file src\core\App.cpp)
+C:\Users\mathieu-daniel\Documents\projects\Mapel\Mapel\MapelEngine\dependencies\openGl\include\GLFW\glfw3.h(104): message : see previous definition of 'APIENTRY' (compiling source file src\core\App.cpp)
+C:\Users\mathieu-daniel\Documents\projects\Mapel\Mapel\MapelEngine\src\core\Renderer.cpp(134,38): warning C4838: conversion from 'unsigned __int64' to 'const int' requires a narrowing conversion
+C:\Users\mathieu-daniel\Documents\projects\Mapel\Mapel\MapelEngine\src\core\Renderer.cpp(134,40): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+glew32s.lib(glew.obj) : warning LNK4006: wglewIsSupported already defined in glew32s.lib(glew.obj); second definition ignored
+glew32s.lib(glew.obj) : warning LNK4006: wglewInit already defined in glew32s.lib(glew.obj); second definition ignored
+glew32s.lib(glew.obj) : warning LNK4006: wglewGetExtension already defined in glew32s.lib(glew.obj); second definition ignored
+glew32s.lib(glew.obj) : warning LNK4006: glewIsSupported already defined in glew32s.lib(glew.obj); second definition ignored
+glew32s.lib(glew.obj) : warning LNK4006: glewInit already defined in glew32s.lib(glew.obj); second definition ignored
+glew32s.lib(glew.obj) : warning LNK4006: glewGetString already defined in glew32s.lib(glew.obj); second definition ignored
+glew32s.lib(glew.obj) : warning LNK4006: glewGetExtension already defined in glew32s.lib(glew.obj); second definition ignored
+glew32s.lib(glew.obj) : warning LNK4006: glewGetErrorString already defined in glew32s.lib(glew.obj); second definition ignored
+glew32.lib(glew32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in opengl32.lib(OPENGL32.dll); second definition ignored
+  MapelEngine.vcxproj -> C:\Users\mathieu-daniel\Documents\projects\Mapel\Mapel\bin\Release-x64\MapelEngine\MapelEngine.lib
