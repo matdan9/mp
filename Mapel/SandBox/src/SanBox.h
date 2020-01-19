@@ -7,8 +7,6 @@
 
 class SandBox : public Component{
 public:
-	int bob = 0;
 	SandBox();
 	~SandBox();
-	void printTest();
 };

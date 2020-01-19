@@ -10,7 +10,7 @@ private:
 public:
 	Cube();
 	~Cube();
-	Cube(MVector*, MVector*, float);
+	Cube(MVector, MVector, float);
 	void moveLeft();
 	void moveRight();
 	void moveDown();

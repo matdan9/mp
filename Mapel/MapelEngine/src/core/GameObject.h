@@ -6,8 +6,8 @@
 class GameObject {
 public:
 	char name[20 + 1] = "allo";
-	MVector* position;
-	MVector* dimention;
+	MVector position;
+	MVector dimention;
 
 	GameObject();
 	GameObject(const char *name);

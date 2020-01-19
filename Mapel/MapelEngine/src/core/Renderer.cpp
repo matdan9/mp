@@ -71,17 +71,17 @@ void Renderer::render() {
 	glClear(GL_COLOR_BUFFER_BIT);
 	
 	float *vPosition =  new float[8]{
-		objsToRender.at(0)->position->getX(), 
-		objsToRender.at(0)->position->getY(),
+		objsToRender.at(0)->position.getX(), 
+		objsToRender.at(0)->position.getY(),
 
-		objsToRender.at(0)->position->getX() + objsToRender.at(0)->dimention->getX(), 
-		objsToRender.at(0)->position->getY(),
+		objsToRender.at(0)->position.getX() + objsToRender.at(0)->dimention.getX(), 
+		objsToRender.at(0)->position.getY(),
 
-		objsToRender.at(0)->position->getX() + objsToRender.at(0)->dimention->getX(),
-		objsToRender.at(0)->position->getY() + objsToRender.at(0)->dimention->getY(),
+		objsToRender.at(0)->position.getX() + objsToRender.at(0)->dimention.getX(),
+		objsToRender.at(0)->position.getY() + objsToRender.at(0)->dimention.getY(),
 
-		objsToRender.at(0)->position->getX(),
-		objsToRender.at(0)->position->getY() + objsToRender.at(0)->dimention->getY()
+		objsToRender.at(0)->position.getX(),
+		objsToRender.at(0)->position.getY() + objsToRender.at(0)->dimention.getY()
 	};
 	unsigned int *iBuffer = new unsigned int[6]{
 		0, 1, 2,

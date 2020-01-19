@@ -1,4 +1,6 @@
 #pragma once
+#include "../core/GameObject.h"
+
 class Component
 {
 public:
@@ -6,7 +8,6 @@ public:
 	~Component();
 
 	void functionTest();
-
 	virtual void runFunction();
 };
 
